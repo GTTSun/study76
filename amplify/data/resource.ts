@@ -12,6 +12,22 @@ const schema = a.schema({
       content: a.string(),
     })
     .authorization((allow) => [allow.publicApiKey()]),
+  Instructors: a
+    .model ({
+      name: a.string(),
+      age: a.float(),
+      specaility: a.string(),
+      location: a.string(),
+      email: a.string(),     
+  })
+  User: a
+    .model ({
+      name: a.string(),
+      email: a.string(),
+      address: a.string(),
+      phone: a.string(),
+      company: a.string(),
+    })
 });
 
 export type Schema = ClientSchema<typeof schema>;

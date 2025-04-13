@@ -110,7 +110,7 @@ function App() {
 
       {/* Main Content with Landscape Image */}
       <main style={styles.mainContent}>
-        <img src="/src/assets/IMG_4527.JPG" alt="Office" style={styles.mainImage} />
+        <img src="/public/IMG_4527.JPG" alt="Office" style={styles.mainImage} />
         
       </main>
     </div>

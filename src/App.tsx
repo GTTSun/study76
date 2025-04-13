@@ -33,7 +33,7 @@ function App() {
       display: 'flex',
       alignItems: 'center',
       gap: '20px', // spacing between elements
-      flexWrap: 'wrap' // ensures responsiveness on smaller screens 
+      //flexWrap: 'wrap' // ensures responsiveness on smaller screens 
     },
     logo: {
       width: '50px',

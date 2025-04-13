@@ -6,6 +6,7 @@ import { Link } from "@aws-amplify/ui-react";
 const client = generateClient<Schema>();
 
 function App() {
+  {/*}
   const [todos, setTodos] = useState<Array<Schema["Todo"]["type"]>>([]);
 
   useEffect(() => {
@@ -17,10 +18,10 @@ function App() {
   function createTodo() {
     client.models.Todo.create({ content: window.prompt("Todo content") });
   }
-
+  */}
   const styles = {
     header: {
-      position: 'fixed',       // Fixes the header at the top of the page
+      position: 'fixed' as React.CSSProperties["position"],       // Fixes the header at the top of the page
       top: 0,
       left: 0,
       width: '100%',
